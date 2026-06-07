@@ -1,8 +1,7 @@
 @font-face {
 	font-family: "Croissant One";
-	src: url('fonts/CroissantOne-Regular.ttf') format('truetype');
+	src: url("fonts/CroissantOne-Regular.ttf") format("truetype");
 }
-
 
 html {
 	font-size: 18px;
@@ -68,13 +67,14 @@ html {
 	justify-content: center;
 	align-items: center;
 	height: 50rem;
-	background: url("https://content.codecademy.com/courses/freelance-1/unit-6/project-morocco/banner.jpg") center center no-repeat;
+	background: url("https://content.codecademy.com/courses/freelance-1/unit-6/project-morocco/banner.jpg")
+    center center no-repeat;
 	background-size: cover;
 	color: #ffb78c;
 }
 
 .banner h2 {
-	padding: .55rem 0;
+	padding: 0.55rem 0;
 	border-top: 4px solid #ffb78c;
 	border-bottom: 4px solid #ffb78c;
 	font-size: 1.44rem;
@@ -116,7 +116,6 @@ html {
 	padding: 0 25% 4rem 25%;
 	background-color: rgb(254, 231, 218);
 	color: #4a4a4a;
-	
 }
 
 .photo {
@@ -148,7 +147,6 @@ footer .image-container img {
 	padding-right: 25px;
 }
 
-
 .photo .image-container img {
 	width: 100%;
 }
@@ -169,7 +167,6 @@ footer p {
 	line-height: 1.5;
 	font-family: "Croissant One", Merriweather, serif;
 }
-
 
 .journal p {
 	padding-bottom: 2.77rem;
@@ -196,7 +193,7 @@ footer p {
 	text-align: center;
 	font-size: 3.55rem;
 	font-weight: 800;
-	line-height: 1.2
+	line-height: 1.2;
 }
 
 @media only screen and (max-width: 680px) {
@@ -213,7 +210,6 @@ footer {
 	padding: 0 1%;
 	background-color: #212121;
 }
-
 
 footer .content {
 	flex-grow: 1;
